@@ -1,0 +1,8 @@
+from tkinter import * # metody umístění: .pack(), .grid(row=0,column=0), place(x=0,y=0)
+formular=Tk()
+formular.geometry("800x600+0+50")
+
+hlaseni=Label(formular,text="nazdarek")
+hlaseni=Label(formular,text="kasparek")
+cudlik=Button(formular,text="Klikni!")
+cudlik.place(x=5,y=0)
